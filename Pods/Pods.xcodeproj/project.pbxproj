@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04634DB61EF15AA6759A9B273C7413D7 /* RBBBlockBasedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C4618D639D7C43353476A9917E28E /* RBBBlockBasedArray.swift */; };
+		11EA6D3382EE21441579480021AF2A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3086873BAA7E1AFACE997437E0FF132F /* Pods-EasyAnimationSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59931E5786FDE547C26D9BA48ED89C1B /* Pods-EasyAnimationSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4541D544C22511ABE764EACD8700AA48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6F164C0E605B8F1DFA8A34D60320563B /* Pods-EasyAnimationSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B807687C9ACE52FC38D0A5D6FD6C9488 /* Pods-EasyAnimationSample-dummy.m */; };
+		91012174E96ACBD2EABD4E20F42C8587 /* EAAnimationDelayed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C2F02731939FC3C2E660219AD15ED2 /* EAAnimationDelayed.swift */; };
+		D0CA1D45496BD57F668B901DCA83E871 /* EasyAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1255DE34F2EAAE53042E45CF6E0ED244 /* EasyAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5D6DAB91A43C517FC8DD5F94AE70DE5 /* EasyAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F7CA255443B6CCA6C42A1DF784C88 /* EasyAnimation-dummy.m */; };
+		E6EC1591A476E80F7A48796BF548D7F2 /* RBBLinearInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2290B1C7D5F764221BB1D41C6DDA1C0 /* RBBLinearInterpolation.swift */; };
+		EDE0C24DD89DED5E7C1A84DEDD6A88FB /* EasyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31189BCC09D2AF89FC701C670E34DC40 /* EasyAnimation.swift */; };
+		FEF3FC0687F782FC0971B731CEFD05EB /* RBBSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAA03F0A2D86EAFF97AE4C30FEDDD25 /* RBBSpringAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08DE26E77F13EEAA59D3C2BE9E1D842D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A376E868ED408EE8EEBD1DDBCE639EF5;
+			remoteInfo = EasyAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1255DE34F2EAAE53042E45CF6E0ED244 /* EasyAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyAnimation-umbrella.h"; sourceTree = "<group>"; };
+		2BFC6046A83FA378B29DACBAD2AEC73F /* Pods-EasyAnimationSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyAnimationSample.debug.xcconfig"; sourceTree = "<group>"; };
+		2F4C288E776B26F6A6E8BB8A5A28AE33 /* EasyAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyAnimation.xcconfig; sourceTree = "<group>"; };
+		31189BCC09D2AF89FC701C670E34DC40 /* EasyAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyAnimation.swift; path = EasyAnimation/EasyAnimation.swift; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		448C4618D639D7C43353476A9917E28E /* RBBBlockBasedArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RBBBlockBasedArray.swift; path = EasyAnimation/RBBSpringAnimation/RBBBlockBasedArray.swift; sourceTree = "<group>"; };
+		4E33DD129C962D4BE2B5290C18B336F8 /* Pods_EasyAnimationSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAnimationSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A0B01F26BA04287A830FFE606F4937 /* Pods-EasyAnimationSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyAnimationSample-resources.sh"; sourceTree = "<group>"; };
+		588C9E4CFF87D367311B5C5E036BDC76 /* EasyAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyAnimation-prefix.pch"; sourceTree = "<group>"; };
+		59931E5786FDE547C26D9BA48ED89C1B /* Pods-EasyAnimationSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyAnimationSample-umbrella.h"; sourceTree = "<group>"; };
+		5CC8CCB97AEE77785EED876B2C4DCF9B /* Pods-EasyAnimationSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyAnimationSample-frameworks.sh"; sourceTree = "<group>"; };
+		74877A97A8762BC1107428DB000C5813 /* Pods-EasyAnimationSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyAnimationSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EFE6461BB306D8B38BEA4B2EF513F13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9370438E3B73C7783AFDAEE62A9D808D /* Pods-EasyAnimationSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyAnimationSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF9DB68584D4419E667EB27F9FB81A7A /* Pods-EasyAnimationSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyAnimationSample.release.xcconfig"; sourceTree = "<group>"; };
+		B2290B1C7D5F764221BB1D41C6DDA1C0 /* RBBLinearInterpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RBBLinearInterpolation.swift; path = EasyAnimation/RBBSpringAnimation/RBBLinearInterpolation.swift; sourceTree = "<group>"; };
+		B807687C9ACE52FC38D0A5D6FD6C9488 /* Pods-EasyAnimationSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyAnimationSample-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C034DAAC78410820039337E1439E7C1E /* EasyAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE8FE5DC9239A1988431EE2194EB8B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22F7CA255443B6CCA6C42A1DF784C88 /* EasyAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyAnimation-dummy.m"; sourceTree = "<group>"; };
+		DEAF92D87F57213293E8AE49E0C5BB50 /* Pods-EasyAnimationSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EasyAnimationSample.modulemap"; sourceTree = "<group>"; };
+		DFAA03F0A2D86EAFF97AE4C30FEDDD25 /* RBBSpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RBBSpringAnimation.swift; path = EasyAnimation/RBBSpringAnimation/RBBSpringAnimation.swift; sourceTree = "<group>"; };
+		E2C2F02731939FC3C2E660219AD15ED2 /* EAAnimationDelayed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EAAnimationDelayed.swift; path = EasyAnimation/EAAnimationDelayed.swift; sourceTree = "<group>"; };
+		E699C0549524E6D02FCD9FBF8E998E30 /* EasyAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EasyAnimation.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224C3BB4B8D8647995BEA5D41697D8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4541D544C22511ABE764EACD8700AA48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEAA3F3C557FDBB5B244BB254A1307A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EA6D3382EE21441579480021AF2A2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009FD5DAA530F9DD72F4B89E25EBFA99 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E699C0549524E6D02FCD9FBF8E998E30 /* EasyAnimation.modulemap */,
+				2F4C288E776B26F6A6E8BB8A5A28AE33 /* EasyAnimation.xcconfig */,
+				D22F7CA255443B6CCA6C42A1DF784C88 /* EasyAnimation-dummy.m */,
+				588C9E4CFF87D367311B5C5E036BDC76 /* EasyAnimation-prefix.pch */,
+				1255DE34F2EAAE53042E45CF6E0ED244 /* EasyAnimation-umbrella.h */,
+				CAE8FE5DC9239A1988431EE2194EB8B5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EasyAnimation";
+			sourceTree = "<group>";
+		};
+		12BD3EA5C79A1FD61092F7F399F492CE /* Pods-EasyAnimationSample */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE6461BB306D8B38BEA4B2EF513F13 /* Info.plist */,
+				DEAF92D87F57213293E8AE49E0C5BB50 /* Pods-EasyAnimationSample.modulemap */,
+				74877A97A8762BC1107428DB000C5813 /* Pods-EasyAnimationSample-acknowledgements.markdown */,
+				9370438E3B73C7783AFDAEE62A9D808D /* Pods-EasyAnimationSample-acknowledgements.plist */,
+				B807687C9ACE52FC38D0A5D6FD6C9488 /* Pods-EasyAnimationSample-dummy.m */,
+				5CC8CCB97AEE77785EED876B2C4DCF9B /* Pods-EasyAnimationSample-frameworks.sh */,
+				52A0B01F26BA04287A830FFE606F4937 /* Pods-EasyAnimationSample-resources.sh */,
+				59931E5786FDE547C26D9BA48ED89C1B /* Pods-EasyAnimationSample-umbrella.h */,
+				2BFC6046A83FA378B29DACBAD2AEC73F /* Pods-EasyAnimationSample.debug.xcconfig */,
+				AF9DB68584D4419E667EB27F9FB81A7A /* Pods-EasyAnimationSample.release.xcconfig */,
+			);
+			name = "Pods-EasyAnimationSample";
+			path = "Target Support Files/Pods-EasyAnimationSample";
+			sourceTree = "<group>";
+		};
+		27FCC30AF0E1DC91711A74A99E9FFEED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C034DAAC78410820039337E1439E7C1E /* EasyAnimation.framework */,
+				4E33DD129C962D4BE2B5290C18B336F8 /* Pods_EasyAnimationSample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CE0EA3D599341345E588F6BD524A830 /* EasyAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				E2C2F02731939FC3C2E660219AD15ED2 /* EAAnimationDelayed.swift */,
+				31189BCC09D2AF89FC701C670E34DC40 /* EasyAnimation.swift */,
+				448C4618D639D7C43353476A9917E28E /* RBBBlockBasedArray.swift */,
+				B2290B1C7D5F764221BB1D41C6DDA1C0 /* RBBLinearInterpolation.swift */,
+				DFAA03F0A2D86EAFF97AE4C30FEDDD25 /* RBBSpringAnimation.swift */,
+				009FD5DAA530F9DD72F4B89E25EBFA99 /* Support Files */,
+			);
+			path = EasyAnimation;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B268D0ED530122AE0832EC9AEDB7E4F9 /* Pods */,
+				27FCC30AF0E1DC91711A74A99E9FFEED /* Products */,
+				B5856A43B61B78ADD91A8907F961B176 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B268D0ED530122AE0832EC9AEDB7E4F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CE0EA3D599341345E588F6BD524A830 /* EasyAnimation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5856A43B61B78ADD91A8907F961B176 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12BD3EA5C79A1FD61092F7F399F492CE /* Pods-EasyAnimationSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56C01C3D1957705BC3AAD6DFD42280FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3086873BAA7E1AFACE997437E0FF132F /* Pods-EasyAnimationSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59A04BBCDE1386C296F0262175781D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CA1D45496BD57F668B901DCA83E871 /* EasyAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0808158F8A0DDBFC40D68DC63C3EC3E0 /* Pods-EasyAnimationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D87272D35FBDF3C406336BA0CE71E3E7 /* Build configuration list for PBXNativeTarget "Pods-EasyAnimationSample" */;
+			buildPhases = (
+				54D6B130D88FC63CF41697117A0FE4AF /* Sources */,
+				224C3BB4B8D8647995BEA5D41697D8CE /* Frameworks */,
+				56C01C3D1957705BC3AAD6DFD42280FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4F7659D841812F25D17D8F1C3BA39F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-EasyAnimationSample";
+			productName = "Pods-EasyAnimationSample";
+			productReference = 4E33DD129C962D4BE2B5290C18B336F8 /* Pods_EasyAnimationSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A376E868ED408EE8EEBD1DDBCE639EF5 /* EasyAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEE3666EAB7865BE609DB051E578910 /* Build configuration list for PBXNativeTarget "EasyAnimation" */;
+			buildPhases = (
+				DB1FF3D3975ECAAA9BA28CF4972CEC54 /* Sources */,
+				AEAA3F3C557FDBB5B244BB254A1307A4 /* Frameworks */,
+				A59A04BBCDE1386C296F0262175781D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyAnimation;
+			productName = EasyAnimation;
+			productReference = C034DAAC78410820039337E1439E7C1E /* EasyAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 27FCC30AF0E1DC91711A74A99E9FFEED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A376E868ED408EE8EEBD1DDBCE639EF5 /* EasyAnimation */,
+				0808158F8A0DDBFC40D68DC63C3EC3E0 /* Pods-EasyAnimationSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54D6B130D88FC63CF41697117A0FE4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F164C0E605B8F1DFA8A34D60320563B /* Pods-EasyAnimationSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1FF3D3975ECAAA9BA28CF4972CEC54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91012174E96ACBD2EABD4E20F42C8587 /* EAAnimationDelayed.swift in Sources */,
+				D5D6DAB91A43C517FC8DD5F94AE70DE5 /* EasyAnimation-dummy.m in Sources */,
+				EDE0C24DD89DED5E7C1A84DEDD6A88FB /* EasyAnimation.swift in Sources */,
+				04634DB61EF15AA6759A9B273C7413D7 /* RBBBlockBasedArray.swift in Sources */,
+				E6EC1591A476E80F7A48796BF548D7F2 /* RBBLinearInterpolation.swift in Sources */,
+				FEF3FC0687F782FC0971B731CEFD05EB /* RBBSpringAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4F7659D841812F25D17D8F1C3BA39F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyAnimation;
+			target = A376E868ED408EE8EEBD1DDBCE639EF5 /* EasyAnimation */;
+			targetProxy = 08DE26E77F13EEAA59D3C2BE9E1D842D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B6D16D6A38BD5DA99132CCE446EFEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9DB68584D4419E667EB27F9FB81A7A /* Pods-EasyAnimationSample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyAnimationSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyAnimationSample/Pods-EasyAnimationSample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_EasyAnimationSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B1B1B4580355AAFA3B6A386FE98E5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4C288E776B26F6A6E8BB8A5A28AE33 /* EasyAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyAnimation/EasyAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyAnimation/EasyAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EasyAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9D0FFA1F93B4ADBCED5113BB0D855B0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4C288E776B26F6A6E8BB8A5A28AE33 /* EasyAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyAnimation/EasyAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyAnimation/EasyAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EasyAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4EE26ECA94CEEACF913B76DABEE82A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BFC6046A83FA378B29DACBAD2AEC73F /* Pods-EasyAnimationSample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyAnimationSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyAnimationSample/Pods-EasyAnimationSample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_EasyAnimationSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEE3666EAB7865BE609DB051E578910 /* Build configuration list for PBXNativeTarget "EasyAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0FFA1F93B4ADBCED5113BB0D855B0F /* Debug */,
+				8B1B1B4580355AAFA3B6A386FE98E5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D87272D35FBDF3C406336BA0CE71E3E7 /* Build configuration list for PBXNativeTarget "Pods-EasyAnimationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4EE26ECA94CEEACF913B76DABEE82A2 /* Debug */,
+				2B6D16D6A38BD5DA99132CCE446EFEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
